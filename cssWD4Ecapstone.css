@@ -1,0 +1,392 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/Preloader_3.gif) center no-repeat #fff;
+}
+
+body{
+	padding: 0px;
+	margin:0px;
+	background: #FFFFFF;
+}
+.totop {
+	text-decoration: none;
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	width: 40px;
+	text-align: right;
+	font-size: .9em;
+}
+#HomeTopPanel{
+	width: 100%;
+	background-color: #FFFFFF;
+	position: fixed;
+	clear: both;
+	font-size: 15px;
+}
+#HomeTopLeftLogo{
+	background-image: url("images/GoogleLogo.png");
+	background-size: cover;
+	height:6rem;
+	width: 8.5rem;
+	border: 0px #FFFFFF;
+	margin: 0px 10px 0px 70px;
+	float: left;
+}
+nav{
+	float: right;
+	margin: 30px 30px 0px 0px;
+	display: inline-block;
+}
+nav>a{
+	color: #0000FF;
+	display:inline-block;
+	height: 3em;
+	padding:15px;
+	border-radius: 5px;
+	margin:0px 10px 10px 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: text-bottom;
+	cursor:pointer;
+}
+a:hover{
+	color: #24bcc5 ;
+	transform:scale(1.2, 1.2)
+}
+#HomeImage{
+	height: 40em;
+	position: static ;
+	background-size: cover;
+	padding:7%;
+	/*back up color*/
+	background-color: #213456;
+	background-image: url("images/GoogleBuilding.jpg");
+	border: None;
+	border-radius: 0em;
+}
+#HomeSection{ 
+	margin: 30px 20px 0px 20px;
+}
+h2{
+	border-bottom: 1.5px solid;
+	color: #1e2024e6;
+}
+.HomePresentationText{
+	display: block;
+	width: 70%;
+	margin-left: 10%;
+}
+#HomeStaffPresentation{
+	background-color: #E4DEDE;
+	padding: 30px 20px 40px 20px;
+	height: auto;
+	width: 100%;
+	text-align: center ;
+}
+#HeadOfStaffTitle{
+	width: 100%;
+}
+.StaffMember{
+	Display:inline-block;
+	margin: 10px;
+	height: 20em;
+}
+#LarryPage{
+	height: 15rem;
+	width: 15rem;
+	background-image: url("images/LarryPage.jpeg");
+	background-size: cover;
+}
+#SergeyBrin{
+	height: 15rem;
+	width: 15rem;
+	background-image: url("images/SergueiBrin.jpeg");
+	background-size: cover;
+}
+#EricSchmidt{
+	height: 15rem;
+	width: 15rem;
+	background-image: url("images/EricSchmidt.jpeg");
+	background-size: cover;
+}
+.left{
+	height:800px;
+	overflow: auto;
+	background-color: #FFFFFF;
+	float: left;
+	width:20%;
+	border-radius:  7px;
+	margin: 40px 40px 20px 20px;
+	padding: 40px 0px 10px 0px;
+}
+.PhotoGalleryItem{
+	display: block;
+	width:90%;
+	height:12em;
+	margin: 10px 5px 5px 10px;
+	border-radius: 0px;
+}
+#PhotoGallery1{
+	background-image: url("images/PhotoGallery1.jpg");
+	background-size: cover;
+}
+#PhotoGallery2{
+	background-image: url("images/PhotoGallery2.jpg");
+	background-size: cover;
+}
+#PhotoGallery3{
+	background-image: url("images/PhotoGallery3.jpg");
+	background-size: cover;
+}
+#PhotoGallery4{
+	background-image: url("images/PhotoGallery4.jpg");
+	background-size: cover;
+}
+#PhotoGallery5{
+	background-image: url("images/PhotoGallery5.jpg");
+	background-size: cover;
+}
+#Outstandingprojects{
+	margin: 30px 10px 10px 50px;
+	width: 50%;
+}
+#GoogleProjectsTitle{
+	text-align: center;
+	margin: 40px auto 20px auto;
+	width: 50%;
+	padding: 40px 0px 10px 0px;
+}
+#GoogleProjectsIntro{
+	text-align: center;
+	margin: 20px auto 20px auto;
+	width: 50%;
+	padding: 10px 0px 10px 0px;
+}
+.YoutubeVideo{
+	margin: 0px 0px 30px 0px;
+	padding-left: 30px;
+}
+
+#ServicesTable{
+	background-color: #E4DEDE;
+	padding:40px 0px 50px 0px;
+}
+#GoogleServicesTitle{
+	text-align: center;
+	margin: 50px auto 20px auto;
+	width: 50%;
+	padding: 40px 0px 10px 0px;
+}
+#GoogleServiceIntro{
+	text-align: center;
+	margin: 20px auto 20px auto;
+	width: 50%;
+	padding: 10px 0px 10px 0px;
+}
+table{
+	margin: auto;
+	width: 80%;
+	color: #242222 ;
+	border-spacing: 3px;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 30px 10px 0 0 ;
+	padding: 10px 5px 5px 5px ;
+}
+table tr:not(:first-child) {
+	opacity: .7 ;
+	padding: 10px  10px 10px 10px;
+	background-color: #e6f8f9 ;
+	font-size: 20px;
+	border-radius: 10px 0 0 0 ;
+	margin: 10px ;
+}
+table tr:first-child th {
+	padding: 10px  10px 10px 10px;
+	color: #FFFFFF; ;
+	background-color: #9cae6b;
+	font-size: 20px;
+	margin: 10px ;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+table tr:hover {
+	opacity: initial ;
+}
+.left-aside-title {
+	border-bottom: 1.5px solid;
+	text-align: center;
+}
+#GoogleServicesTitle{
+	text-align: center;
+	margin: 40px auto 20px auto;
+	width: 50%;
+	padding: 40px 0px 10px 0px;
+}
+#Contact{
+	padding: 30px 0px 70px 0px;
+	height: auto;
+	width: auto;
+	overflow: auto;
+}
+#GoogleContact{
+	text-align: center;
+	margin: 10px auto 40px auto;
+	width: 50%;
+	padding: 40px 0px 10px 0px;
+}
+#GoogleCoAdress{
+	float: left;
+	margin: 0px auto 20px auto;
+	font-size: 1em;
+	width: 40%;
+	padding: 20px 0px 10px 50px;
+}
+#GoogleCoAdress>h3{
+	font-style: italic;
+	color: #4285f4;
+	padding-bottom: 10px;
+}
+#GoogleCoAdress i{
+	color: #0000FF;
+}
+#GoogleCoAdress>p:first-of-type{
+	padding-bottom: 20px;
+}
+#GoogleForumAdr>a{
+	text-decoration: none;
+	color: inherit;
+}
+#GooglePostalAdr, #GooglePhoneNum, #GoogleForumAdr{
+	padding-bottom: 20px;
+}
+#GmapPlan{
+	float: right;
+	padding: 20px 50px 10px 0px;
+}
+#GmapPlan>p{
+	color: #4285f4;
+	font-size: 1.3em;
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 7px;
+}
+#GoogleCoAdress, #GmapPlan{
+	display: inline-block;
+}
+#GetInvolved{
+	background-color: #E4DEDE;
+}
+#GetInvolved>h2{
+	text-align: center;
+	margin: 10px auto 20px auto;
+	width: 50%;
+	padding: 40px 0px 10px 0px;
+}
+#Google-Cal{
+	float: left;
+	margin: 0px auto 20px auto;
+	font-size: 1em;
+	width: 40%;
+	padding: 20px 0px 10px 50px;
+}
+
+#Google-Cal-Intro{
+	margin: 20px auto 10px auto;
+	padding: 10px 0px 10px 0px;
+}
+
+#MailInf{
+	float: right;
+	margin: 10px 20px 20px 0px;
+	font-size: 1em;
+	width: 40%;
+	padding: 20px 10px 10px 10px;
+}
+#FormTopLeftLogo{
+	background-image: url("images/GmailLogo.png");
+	background-size: cover;
+	width:5em;
+	height:5em;
+	border: none;
+	float: left;
+}
+fieldset>p:first-of-type{
+	font-style: italic;
+}
+.MailData>p{
+	display:inline-block;
+	padding-left: 1em;
+	width: 200px;
+}
+.RegisterButton{
+	background-color:#4c5bcc;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	cursor:pointer;
+}
+.RegisterButton:hover{
+	background-color:#5bdb27;
+}
+#SocialNet img {
+	display: inline;
+	border-radius: 10px;
+	border: transparent;
+	vertical-align: top;
+	height: 30px;
+	width: 40px;
+	margin: 10px 30px 10px 10px;
+}
+footer{
+	color: #FFFFFF;
+	padding: 38px 0px 38px;
+	background-color: #313036;
+	font-size: 13px;
+	position:static;
+	height: 5rem;
+	clear: both;
+}
+.CopyrightInf {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 20px 0 30px;
+}
+.ContactInf {
+	float: right;
+	margin-right: 20px;
+}
+.ContactInf>a {
+	color: #6a82db;
+}
+.CopyrightInf, .ContactInf {
+	display: inline;
+}
+.footer-phone-inf {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #ff0000;
+	background-color: #15a78d;
+	position: absolute;
+	visibility: hidden;
+}
+.footer-phone:active>.footer-phone-inf {
+	visibility: visible;
+}
+.footer-phone{
+    border-bottom: 1px dashed #FFFFFF;
+}
+.footer-phone,  .AuthEmail {
+    display: inline;
+    position: relative;
+}
